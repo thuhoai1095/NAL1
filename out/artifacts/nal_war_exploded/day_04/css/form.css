@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background:cadetblue;
+    padding: 30px;
+}
+nav{
+    width: 20%;
+    height:1000px;
+    border: #7746e1;
+    background:cadetblue;
+    float: left;
+}
+    ul{
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        padding: 50px;
+    }
+article {
+    width: 70%;
+    float: left;
+    margin-left: 50px;
+}
+
+    .logo{
+        border: 1px solid;
+        color: red;
+        margin-top: 20px;
+        margin-left: 5%;
+        padding: 10px;
+    }
+    .title{
+        border: black;
+        border: 1px solid;
+        margin-top: 20px;
+        margin-left: 5%;
+        padding: 10px;
+    }
+.content{
+    width: 100%;
+
+}
+form{
+    width: 100%;
+    margin-top: 10px;
+}
+.block{
+    height: 35px;
+    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid;
+}
+.col-left{
+    width: 20%;
+    border: 1px solid;
+    background:cadetblue;
+    float: left;
+}
+.col-left label{
+    line-height: 32px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.col-right{
+    width: 70%;
+    float: left;
+}
+.year{
+    width: 60px;
+    height: 28px;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.input-content{
+    width: 80%;
+    height: 25px;
+    font-size: 14px;
+    margin: 3px 5px;
+    color: black;
+    line-height: 32px;
+    background-color: #fff;
+    background-image: none;
+}
+.input-content1,
+.input-content2,
+.input-content7,
+.input-content8,
+.input-content9
+{
+    width: 80%;
+}
+.input-content3,
+.input-content4,
+.input-content5
+{
+    width: 60%;
+}
+.input-content6{
+    width: 40%;
+}
+pre{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+hr{
+    border: 2px dashed;
+    color: red;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.nd1{
+    margin-left: 50px;
+}
+.nd{
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid;
+    overflow: scroll;
+    margin-left: 50px;
+}
+.checkbox{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+.button{
+    margin-left: 40%;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+footer{
+    height: 50px;
+    background: cadetblue;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+
+}
