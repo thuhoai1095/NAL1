@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    margin: 0 12px 0 12px;
+}
+
+/*start header*/
+header {
+    padding: 10px 15%;
+    background: #eaf2ff;
+    width: 68%;
+    position: fixed;
+    border: 2px solid;
+}
+
+header img {
+    height: 75px;
+    width: 75px;
+    float: left;
+    clear: both;
+    padding-top: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    font-weight: 400;
+}
+
+a, u {
+    color:slateblue;
+}
+
+header nav {
+    display: inline-block;
+    width: 300px;
+    margin-left: 35%;
+}
+
+header a {
+    padding: 0 8px;
+}
+
+header a + a{
+    border-left: 2px solid black;
+}
+
+
+/*start section*/
+
+.title_author {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    background-color: RGB(111,168,220);
+    color: white;
+    border: 2px solid black;
+    clear: both;
+}
+
+.title {
+    font-size: 17px;
+}
+
+.author {
+    padding-left: 40%;
+}
+
+/*content*/
+main {
+    margin-top: 70px;
+    padding: 4% 15% 2% 14%;;
+
+}
+
+.article-content {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.article-content img {
+    height: 60px;
+    width: 250px;
+    float: left;
+}
+#scroll_to_top{
+    position: fixed;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 0;
+    border: 1px solid;
+    padding: 2px 8px;
+    border-radius: 5px;
+    right: 0;
+    bottom: 100px;
+    background: RGB(111,168,220);
+    color: black;
+}
+
+
+/*footer*/
+footer p {
+    padding: 2%;
+    background-color: RGB(111,168,220);
+    color: white;
+    border: 2px solid #404142;
+    text-align: center;
+    height: 20px;
+}

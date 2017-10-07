@@ -1,0 +1,49 @@
+form{
+    margin: 2% 30%;
+}
+fieldset{
+    border-radius: 5px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+label{
+    line-height: 35px;
+}
+input:focus{
+    padding: 4px 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea{
+    padding: 2px 3px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+#username,
+#email,
+#password,
+#confirmPassword,
+#fullName,
+#birthDay{
+    padding: 3px 7px;
+    border: 1px solid #ccc;
+    width: 40%;
+    border-radius: 5px;
+}
+#submit,
+#reset{
+    background-color:gray;
+    border: none;
+    padding: 7px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 7px;
+}
+#submit{
+    margin-left: 30%;
+}

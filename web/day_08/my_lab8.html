@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm hiểu về Form</title>
+    <link href="my_lab8.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <form action="https://youtube-api-challenger.appspot.com/member/register" method="post">
+        <fieldset>
+            <legend> Thông tin cơ bản </legend>
+            <label for="username"> Tên tài khoản</label>
+                <input type="text" id="username" name="username" required minlength="7" placeholder="Tài khoản đăng nhập"><br>
+
+            <label for="email"> Email </label>
+                <input type="email" id="email" name="email" required minlength="7" placeholder="Email của bạn"><br>
+
+
+            <label for="password"> Mật khẩu </label>
+                    <input type="password" id="password" name="password" required minlength="7" placeholder="Mật khẩu đăng nhập"><br>
+
+            <label for="confirmPassword"> Xác nhận mật khẩu</label>
+                <input type="password" id="confirmPassword" name="password" required minlength="7" placeholder="Nhập lại mật khẩu"><br>
+
+        </fieldset><br>
+
+        <fieldset>
+            <legend> Thông tin chi tiết</legend>
+            <label for="fullName"> Họ và tên </label>
+                <input type="text" id="fullName" name="fullName" placeholder="Họ và tên của bạn"><br>
+
+
+            <label for="birthDay"> Ngày sinh  </label>
+                <input type="date" id="birthDay" name="birthDay" placeholder="mm/ dd/ yy"><br>
+
+
+            <label> Giới tính
+                <input type="radio" name="gender"  value="1"> Nam
+                <input type="radio" name="gender" value="0" checked> Nữ
+            </label><br>
+
+            <label> Sở thích
+                <input type="checkbox" name="favourite" value="the thao"> Thể thao
+                <input type="checkbox" name="favourite" value="xem phim"> Xem phim
+                <input type="checkbox" name="favourite" value="nghe nhac" checked> Nghe nhạc
+                <input type="checkbox" name="favourite" value="doc sach" checked> Đọc sách
+            </label><br>
+
+            <label for="avatar"> Ảnh đại diện  </label>
+                <input type="file" id="avatar" name="avatar"><br>
+
+
+            <label for="about"> Giới thiệu về bản thân </label>
+                <textarea name="about" id="about" rows="4" cols="30"></textarea><br>
+
+        </fieldset><br>
+        <input type="submit" id="submit" name="submit" value=" Đăng kí">
+        <input type="reset" id= "reset" name="reset" value=" Làm lại">
+    </form>
+</body>
+</html>
