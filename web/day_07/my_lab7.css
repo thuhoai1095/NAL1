@@ -1,7 +1,7 @@
 body {
-    font-family: sans-serif;
-    margin: 0 12px 0 12px;
-}
+     font-family: sans-serif;
+     margin: 0 12px 0 12px;
+ }
 
 /*start header*/
 header {
@@ -31,7 +31,6 @@ a, u {
 
 header nav {
     display: inline-block;
-    width: 300px;
     margin-left: 35%;
 }
 
@@ -87,6 +86,7 @@ main {
     width: 250px;
     float: left;
 }
+
 #scroll_to_top{
     position: fixed;
     display: inline-block;
